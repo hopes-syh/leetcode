@@ -8,6 +8,8 @@ import java.util.Stack;
  * Date: 18-9-8
  * Time: 下午4:36
  * To change this template use File | Settings | File Templates.
+ *
+ * https://leetcode-cn.com/problems/course-schedule/description/
  */
 public class CourseSchedule {
 

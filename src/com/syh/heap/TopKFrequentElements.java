@@ -36,7 +36,7 @@ public class TopKFrequentElements {
         PriorityQueue<Pair> pairsQueue = new PriorityQueue<Pair>(k+1, new Comparator<Pair>() {
             @Override
             public int compare(Pair o1, Pair o2) {
-                return o1.count - o2.count;  //To change body of implemented methods use File | Settings | File Templates.
+                return o1.count - o2.count;
             }
         });
 
