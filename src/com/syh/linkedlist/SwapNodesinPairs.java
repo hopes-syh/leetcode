@@ -61,22 +61,22 @@ public class SwapNodesinPairs {
         return newhead;
     }
 
-}
+    static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
+        @Override
+        public String toString() {
+            StringBuilder result = new StringBuilder();
 
-    @Override
-    public String toString() {
-        StringBuilder result = new StringBuilder();
-
-        ListNode curr = this;
-        while (curr != null){
-            result.append(curr.val).append("->");
-            curr = curr.next;
+            ListNode curr = this;
+            while (curr != null){
+                result.append(curr.val).append("->");
+                curr = curr.next;
+            }
+            return result.toString();
         }
-        return result.toString();
     }
 }
+
