@@ -12,7 +12,7 @@ package com.syh.dynamic;
 public class MaximumSubarray {
 
     public static void main(String[] args) {
-        System.out.println(maxSubArray(new int[]{-1, 2, 3, -2, 4}));
+        System.out.println(maxSubArray(new int[]{-100, -1, 2, 3, -2, 4}));
         System.out.println(maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
         System.out.println(maxSubArray(new int[]{1}));
 
