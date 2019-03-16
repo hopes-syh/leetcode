@@ -16,11 +16,12 @@ import java.util.List;
 public class Permutations {
 
     public static void main(String[] args) {
-        System.out.println(permute(new int[]{1}));
-        System.out.println(permute(new int[]{1, 2}));
+//        System.out.println(permute(new int[]{1}));
+//        System.out.println(permute(new int[]{1, 2}));
         System.out.println(permute(new int[]{1, 2, 3}));
-        System.out.println(permute(new int[]{2, 3, 6, 7}));
-        System.out.println(permute(new int[]{2, 3, 5}));
+        System.out.println(permute(new int[]{1, 2, 3, 4}));
+//        System.out.println(permute(new int[]{2, 3, 6, 7}));
+//        System.out.println(permute(new int[]{2, 3, 5}));
     }
 
     public static List<List<Integer>> permute(int[] nums) {
