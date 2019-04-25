@@ -13,6 +13,12 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class random{
     public static void main(String[] args) throws InterruptedException {
-        System.out.println(3/2);
+        int x = 0;
+
+        int n = 10;
+        x^=(x&(1<<n)) ^ (1<<n);
+        System.out.println(x);
+
+        System.out.println((x>>8) & 1);
     }
 }
